@@ -6,7 +6,8 @@ def display_board
   puts "#{board[3]} | #{board[4]} | #{board[5]}"
   puts "-----------"
   puts "#{board[6]} | #{board[7]} | #{board[8]}"
-end
 
 it 'prints an entire board full of Xs' do
   board = ["X","X","X","X","X","X","X","X","X"]
+
+end
