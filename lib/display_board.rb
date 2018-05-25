@@ -8,3 +8,6 @@ def display_board
   puts "-----------"
   puts "#{board[6]} | #{board[7]} | #{board[8]}"
 end
+
+it 'prints a blank board when the board array is empty' do
+      board = [" "," "," "," "," "," "," "," "," "]
